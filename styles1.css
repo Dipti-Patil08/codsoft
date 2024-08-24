@@ -1,0 +1,195 @@
+/* Basic styles and resets */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #333;
+    background-color: #f9f9f9; /* Light background color for a clean look */
+}
+
+/* Container to center content and manage width */
+.container {
+    width: 450%;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+.container h1 {
+    color: #60da3f;
+}
+
+/* Header Section */
+.header {
+    background: #fabee0; /* Dark background color */
+    color: #fff;
+    text-align: center;
+    padding: 60px 0;
+    position: relative;
+}
+
+.profile-pic {
+    width: 300px; /* Adjust size as needed */
+    height: 300px; /* Adjust size as needed */
+    border-radius: 80%; /* Circular shape */
+    object-fit: cover;
+    border: 4px solid #fff; /* Optional border */
+    margin: 0 auto; /* Center the image */
+}
+
+.header h1 {
+    font-size: 2.5em;
+    margin: 20px 0 10px;
+}
+
+.header p {
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+
+.cta-buttons {
+    margin-top: 20px;
+}
+
+.cta-button {
+    background-color: #ff5722; /* Button color */
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 1em;
+    border-radius: 5px;
+    margin: 10px;
+    display: inline-block;
+    transition: background-color 0.3s;
+}
+
+.cta-button:hover {
+    background-color: #e64a19; /* Darker shade on hover */
+}
+
+/* About Me Section */
+.about {
+    padding: 60px 0;
+    background-color: #fff; /* White background for contrast */
+    text-align: center;
+}
+
+.about h2 {
+    margin-bottom: 20px;
+    font-size: 2em;
+}
+
+/* Portfolio Section */
+.portfolio {
+    background: #eefa85;
+    padding: 60px 0;
+}
+
+.portfolio h2 {
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 2.5em;
+}
+
+.portfolio-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.portfolio-item {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    width: 650px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+
+.portfolio-item:hover {
+    transform: scale(1.05); /* Slight zoom effect on hover */
+}
+
+.portfolio-item img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.portfolio-item h3 {
+    margin: 15px 0;
+}
+
+/* CV Section */
+.cv {
+    padding: 60px 0;
+    background-color: #f4f4f4; /* Slightly darker background */
+    text-align: center;
+}
+
+.cv h2 {
+    margin-bottom: 20px;
+    font-size: 2em;
+}
+
+/* Contact Section */
+.contact {
+    padding: 60px 0;
+}
+
+.contact h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 2.5em;
+}
+.portfolio-item h3 {
+    color: #78da46; 
+}
+.container h2 {
+    color: #78da46; 
+}
+
+.contact form {
+    max-width: 600px;
+    margin: 0 auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.contact input, .contact textarea {
+    width: 100%;
+    padding: 15px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.contact button {
+    background-color: #ff5722;
+    color: #fff;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.contact button:hover {
+    background-color: #e64a19;
+}
+
+/* Footer Section */
+.footer {
+    background: #1e1e1e;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.footer p {
+    margin: 0;
+}
